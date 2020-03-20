@@ -535,7 +535,7 @@ h3 {
         position: relative;
         margin-top: 30px; } }
 
-.section__heading, .footer__info-title {
+.section__heading, .footer__title {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -543,7 +543,7 @@ h3 {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #c0cdd7; }
-  .section__heading--color-white {
+  .section__heading--white {
     color: white; }
 
 .section--bg-color {
@@ -1371,38 +1371,11 @@ h3 {
         margin: 40px auto 0; } }
   .footer__info {
     margin-top: 56px; }
-    .footer__info:hover .footer__info-title {
+    .footer__info:hover .footer__title {
       opacity: 1; }
     @media screen and (max-width: 760px) {
       .footer__info {
         margin-top: 40px; } }
-    .footer__info-title {
-      margin-bottom: 8px;
-      color: #fff;
-      opacity: 0.5;
-      letter-spacing: 3px;
-      -webkit-transition: opacity 0.2s;
-      transition: opacity 0.2s; }
-    .footer__info-phone, .footer__info-address {
-      font-family: "Open Sans", sans-serif;
-      font-size: 24px;
-      font-weight: 600;
-      color: #fff; }
-      @media screen and (max-width: 1100px) {
-        .footer__info-phone, .footer__info-address {
-          font-size: 18px; } }
-    .footer__info-socials {
-      margin-top: 16px; }
-    .footer__info-icon {
-      display: inline-block;
-      margin-right: 32px;
-      -webkit-transition: -webkit-transform 0.2s;
-      transition: -webkit-transform 0.2s;
-      transition: transform 0.2s;
-      transition: transform 0.2s, -webkit-transform 0.2s; }
-      .footer__info-icon:hover {
-        -webkit-transform: scale(1.1);
-                transform: scale(1.1); }
   .footer::after {
     position: absolute;
     content: "";
@@ -1412,6 +1385,33 @@ h3 {
     height: 200px;
     background-color: #fff;
     z-index: -1; }
+  .footer__title {
+    margin-bottom: 8px;
+    color: #fff;
+    opacity: 0.5;
+    letter-spacing: 3px;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s; }
+  .footer__phone, .footer__address {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff; }
+    @media screen and (max-width: 1100px) {
+      .footer__phone, .footer__address {
+        font-size: 18px; } }
+  .footer__socials {
+    margin-top: 16px; }
+  .footer__icon {
+    display: inline-block;
+    margin-right: 32px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s; }
+    .footer__icon:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
 
 body {
   background: rgba(86, 204, 242, 0.1); }
